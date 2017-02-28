@@ -9,3 +9,7 @@ dependencies:
     - chmod +x jfrog
     - ./jfrog
     - pwd
+compile:
+  override:
+    - mvn clean build
+    - jfrog rt config --url https://gcartifactory-us.jfrog.info/artifactory --user jainishs --password AKCp2UNgyicsv5cHr3BvMAaaWd9d123jvpTudVKPE6KWghJLRXUgvxjmsEjgE8svEFksAkRFi
