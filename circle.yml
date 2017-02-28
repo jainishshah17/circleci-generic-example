@@ -11,4 +11,4 @@ compile:
   override:
     - mvn clean install
     - ./jfrog rt config --url $ARTIFACTORY_URL --user $ARTIFACTORY_USER --apikey $ARTIFACTORY_PASSWORD
-    - ./jfrog rt u "*" circleci-generic-local
+    - ./jfrog rt u --props="build.number=$CIRCLE_BUILD_NUM;build.url=$CIRCLE_BUILD_URL" "*" circleci-generic-local
