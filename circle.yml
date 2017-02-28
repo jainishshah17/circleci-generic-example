@@ -1,5 +1,9 @@
+machine:
+  java:
+    version: openjdk7
 dependencies:
   pre:
     - wget https://dl.bintray.com/jfrog/jfrog-cli-go/1.7.1/jfrog-cli-linux-amd64/jfrog
     - chmod +x jfrog
     - ./jfrog
+    - pwd
