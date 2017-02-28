@@ -10,5 +10,5 @@ dependencies:
 compile:
   override:
     - mvn clean install
-    - ./jfrog rt config --url https://gcartifactory-us.jfrog.info/artifactory --user jainishs --apikey AKCp2UNgyicsv5cHr3BvMAaaWd9d123jvpTudVKPE6KWghJLRXUgvxjmsEjgE8svEFksAkRFi
+    - ./jfrog rt config --url $ARTIFACTORY_URL --user $ARTIFACTORY_USER --apikey $ARTIFACTORY_PASSWORD
     - ./jfrog rt u "*" circleci-generic-local
