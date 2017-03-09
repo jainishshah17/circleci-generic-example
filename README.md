@@ -30,3 +30,8 @@ You should be able to see published artifacts in artifactory.
 
 ![screenshot](img/Screen_Shot3.png)
 
+Step 6: 
+
+Check build info in build section of Artifactory.
+
+![screenshot](img/Screen_Shot4.png)
