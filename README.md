@@ -4,7 +4,7 @@
 
 [![CircleCI](https://circleci.com/gh/jainishshah17/circleci-generic-artifactory.svg?style=svg)](https://circleci.com/gh/jainishshah17/circleci-generic-artifactory)
 
-`To make this integration work you will need to have running Artifactory-pro/Artifactory SAAS/Artifactory Enterprise which is acccessible form outside.`
+`To make this integration work you will need to have running Artifactory-pro/Artifactory SAAS/Artifactory Enterprise which is accessible from outside.`
 
 ##Steps to Integrate Circle CI with Artifactory.
 
